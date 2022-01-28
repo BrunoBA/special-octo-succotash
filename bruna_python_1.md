@@ -36,26 +36,46 @@ if(2 > 1): #Aqui, o resultado da expressão 2 > 1 vai retornar um True, e conseq
     print("Dois é maior do que um")
 ```
 
-- E situações contendo if, elif e else o primeiro o primeiro bloco válido será o bloco executado
+- E situações contendo `if`, `elif` o primeiro o primeiro bloco verdadeiro será o bloco executado
 
 Por exemplo:
 
 ```python
 numero = 20
 
-if(numero == 20):                 #Verifica se o número é igual a 20
+if(numero == 20):                  #Verifica se o número é igual a 20
     print("Primeira condição")
-elif(numero % 2 == 0):            #Verifica se o número é par
+elif(numero % 2 == 0):             #Verifica se o número é par
     print("Segunda condição")
-elif(True)                        #True
+elif(True):                        #True
     print("Terceira condição")
-elif(numero > 19 and numero < 21) #Verifica se o número é maior do que 19 e menor do que 21
+elif(numero > 19 and numero < 21): #Verifica se o número é maior do que 19 e menor do que 21
     print("Quarta condição")
 ```
 Mesmo ***todas*** as condições sendo verdadeiras, será executado a primeira condição que foi dado como verdadeiro. O script irá "printar"
 
+- E caso todas as opções forem falsas, só resta a ser executado o `else`
+Por exemplo:
+
+```python
+numero = 1
+
+if(numero == 20):                  #Verifica se o número é igual a 20 
+    print("Primeira condição")
+elif(numero % 2 == 0):             #Verifica se o número é par
+    print("Segunda condição")
+elif(False):                       #False
+    print("Terceira condição")
+elif(numero > 19 and numero < 21): #Verifica se o número é maior do que 19 e menor do que 21
+    print("Quarta condição")
+elif(numero == "banana"):          #Verifica se o numero é igual a uma string, "banana"
+    print("Quinta condição")
+else:
+    print("Sexta condição")
 ```
-Primeira condição
+Resultado:
+```
+Sexta condição
 ```
 
 ## Curiosidades
