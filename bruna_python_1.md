@@ -79,13 +79,13 @@ Sexta condição
 ```
 
 ## Curiosidades
-É possível passar parametros para o script, antes nós executávamos um script em python simplesmente chamando o script
+É possível passar parametros para o script! antes nós executávamos um script em python simplesmente chamando o script:
 
 ```
 python nome_do_script.py
 ```
 
-Quando adicionarmos a biblioteca _sys_ podemos obter parametros, por exemplo:
+Mas podemos, passar um parametro para o script. Ao adicionarmos a biblioteca _sys_ podemos obter parametros, por exemplo:
 
 ```
 python script_em_python.py UmParametro
@@ -100,7 +100,7 @@ print(parametro_enviado_ao_script)        #vai ser exibido o valor de "UmParamet
 ```
 
 ## Resumo do dia
-Hoje apredemos a usar o `if`, `elif` e o `else` e como são utilizados. Para condensar o nosso conhecimento observe o script abaixo
+Hoje apredemos a usar o `if`, `elif` e o `else` e como são utilizados. Para condensar o nosso conhecimento observe o script abaixo:
 
 
 ```python
