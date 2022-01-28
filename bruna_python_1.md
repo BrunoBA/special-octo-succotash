@@ -52,8 +52,12 @@ elif(True):                        #True
 elif(numero > 19 and numero < 21): #Verifica se o número é maior do que 19 e menor do que 21
     print("Quarta condição")
 ```
-Mesmo ***todas*** as condições sendo verdadeiras, será executado a primeira condição que foi dado como verdadeiro. O script irá "printar"
+Mesmo ***todas*** as condições sendo verdadeiras, será executado a primeira condição que foi dado como verdadeiro.
 
+Resultado:
+```
+"Quarta condição"
+```
 - E caso todas as opções forem falsas, só resta a ser executado o `else`
 Por exemplo:
 
