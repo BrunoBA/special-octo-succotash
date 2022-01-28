@@ -1,3 +1,63 @@
+## Estruturas condicionais
+Para decifir o fluxo de um script podemos fazer o uso do `if` 
+Por exemplo:
+
+_"Se estiver com covid, favor ficar em casa em quarentena"_
+
+```python
+tem_covid = True
+
+if (tem_covid):
+    print("Por favor, fique em quarentena")
+```
+O print só vai ser executado caso a variável tem_covid tiver um valor True, caso o valor de tem_covid fosse False, ***o bloco dentro do _if_ não seria executado***
+
+Se caso quisermos adicionar uma outra condição para o exemplo acima, podemos adicionar um `else` e ainda assim informar algo
+
+```python
+tem_covid = True
+
+if (tem_covid):
+    print("Por favor, fique em quarentena")
+else:
+    print("Tudo certo, pode ficar despreocupado")
+```
+
+## Conceitos importantes
+- O parâmetro de uma função condicional é sempre um Boolean (um booleano), `True` ou `False`
+
+```
+if(aqui deve ter um booleano):
+```
+Por exemplo:
+
+```python
+if(2 > 1): #Aqui, o resultado da expressão 2 > 1 vai retornar um True, e consequentemente irá entrar no bloco do if
+    print("Dois é maior do que um")
+```
+
+- E situações contendo if, elif e else o primeiro o primeiro bloco válido será o bloco executado
+
+Por exemplo:
+
+```python
+numero = 20
+
+if(numero == 20):                 #Verifica se o número é igual a 20
+    print("Primeira condição")
+elif(numero % 2 == 0):            #Verifica se o número é par
+    print("Segunda condição")
+elif(True)                        #True
+    print("Terceira condição")
+elif(numero > 19 and numero < 21) #Verifica se o número é maior do que 19 e menor do que 21
+    print("Quarta condição")
+```
+Mesmo ***todas*** as condições sendo verdadeiras, será executado a primeira condição que foi dado como verdadeiro. O script irá "printar"
+
+```
+Primeira condição
+```
+
 ## Curiosidades
 É possível passar parametros para o script, antes nós executávamos um script em python simplesmente chamando o script
 
