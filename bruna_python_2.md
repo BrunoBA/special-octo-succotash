@@ -188,7 +188,7 @@ Por exemplo:
 ```python
 brand_of_cars = ["Audi", "Porshe", "BMW"]
 
-forbrand in brand_of_cars:
+for brand in brand_of_cars:
  print(brand)
 ```
 Será impresso no console:
