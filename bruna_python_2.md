@@ -271,11 +271,17 @@ amigos = [
 4. Printe todos os amigos, exeto o da terceira posição
 5. Printe apenas os que começam com a letra _"B"_
 6. Printe apenas os nomes que tem um tamanho par
-7. Usando o while, exiba os nomes dos amigos alternados, entre **VERMELHO** e **AZUL**
+7. Usando o while, exiba os nomes dos amigos alternados, entre GRUPO 1 e GRUPO 2
 
 EX:
 
-![example](imagem.jpeg)
+```
+AGUIAR É DO GRUPO 1
+ANNA É DO GRUPO 2
+BRUNA É DO GRUPO 1
+BRUNO É DO GRUPO 2
+...
+```
 
 
 ![Kill them](https://media0.giphy.com/media/2fQbnnqxF3ZQs/giphy.gif?cid=790b76113eccdac76c001e951c0a5c6134dfe5e8ae0c8e0d&rid=giphy.gif&ct=g)
