@@ -271,7 +271,7 @@ amigos = [
 3. Printe todos os amigos, exeto o da terceira posição
 4. Printe apenas os que começam com a letra _"B"_
 5. Printe apenas os nomes que tem um tamanho par
-6. Usando o while, exiba os nomes dos amigos alternados, entre **AZUL** e **AZUL**
+6. Usando o while, exiba os nomes dos amigos alternados, entre **VERMELHO** e **AZUL**
 
     EX:
     ````
