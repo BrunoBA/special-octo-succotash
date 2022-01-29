@@ -266,21 +266,17 @@ amigos = [
 ]
 ```
 1. Usando o for, printe na tela o nome de cada um dos amigos
-1. Printe no terminal o terceiro elemento da lista 
-2. Faça um print de cada um dos nomes dos amigos em letra maiúscula 
-3. Printe todos os amigos, exeto o da terceira posição
-4. Printe apenas os que começam com a letra _"B"_
-5. Printe apenas os nomes que tem um tamanho par
-6. Usando o while, exiba os nomes dos amigos alternados, entre **VERMELHO** e **AZUL**
+2. Printe no terminal o terceiro elemento da lista 
+3. Faça um print de cada um dos nomes dos amigos em letra maiúscula 
+4. Printe todos os amigos, exeto o da terceira posição
+5. Printe apenas os que começam com a letra _"B"_
+6. Printe apenas os nomes que tem um tamanho par
+7. Usando o while, exiba os nomes dos amigos alternados, entre **VERMELHO** e **AZUL**
 
-    EX:
-    ````
-    Aguiar (em Vermelho)
-    Anna   (em Azul)
-    Bruna  (em Vermelho)
-    Bruno  (em Azul)
-    ...
-    ````
+EX:
+
+![example](imagem.jpeg)
+
 
 ![Kill them](https://media0.giphy.com/media/2fQbnnqxF3ZQs/giphy.gif?cid=790b76113eccdac76c001e951c0a5c6134dfe5e8ae0c8e0d&rid=giphy.gif&ct=g)
 
